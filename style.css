@@ -16,19 +16,37 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     height: 667px;
+    position: relative;
+    z-index: 2;
    
+}
+
+.layer {
+    background-color: hsla(224, 35%, 11%, 0.82);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+header{
+    z-index:  2;
 }
 
 #text{
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 54;
 }
 
 #logo{
     display: inline-block;
     margin-bottom: 5rem;
     margin-top: 4.8rem;
+    z-index: 3;
 }
 
 .turq{
@@ -50,7 +68,9 @@ html{
     font-size: 1.1rem;
     line-height: 1.7rem;
     padding: 0 35px;
-    color: #2C344B;
+    color: rgba(216, 218, 226, 0.575);
+    font-weight: 100;
+    
 }
 
 #icons{
