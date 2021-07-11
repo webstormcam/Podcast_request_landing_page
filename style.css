@@ -76,7 +76,18 @@ header{
 #icons{
     display: flex;
     flex-direction: row;
+    width: 90%;
+    z-index: 12;
     justify-content: space-evenly;
-    width: 100%;
+    margin-top: 2rem;
 }
+
+.cast{
+   width: 4.4rem;
+    height: 1.4rem;
+    
+}
+
+
+
 
