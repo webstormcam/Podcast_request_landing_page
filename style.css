@@ -22,4 +22,35 @@ html{
 
 #logo{
     display: inline-block;
+    margin-bottom: 5rem;
+}
+
+.turq{
+    font-weight: 100;
+    color: #54E6AF;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.white{
+    font-weight: 100;
+    color: #54E6AF;
+    font-size: 2rem;
+}
+
+.grey{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.cast{
+    width: 5rem;
+
 }
