@@ -15,9 +15,11 @@ html{
     background-image: url('imgs/mobile/image-host.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 750px;
+    background-position: center center;
+    height: 100%;
     position: relative;
     z-index: 2;
+    padding-bottom: 12rem;
    
 }
 
@@ -112,8 +114,9 @@ padding: 17px 30px;
 border-radius: 20px;
 border: none;
 width: 85%;
-color:rgba(216, 218, 226, 0.575) ;
+color:rgba(248, 250, 255, 0.959) ;
 font-weight: bold;
+background-color: #2C344B;
 }
 
 button{
@@ -124,6 +127,7 @@ border: none;
 width: 85%;
 font-weight: bold;
 text-align: center;
+background-color: #54E6AF;
 }
 
 
