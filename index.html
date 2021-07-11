@@ -26,12 +26,13 @@
                 Google Podcasts, Pocket Casts and more!</p>
         </section>
         <section id="icons">
-
+            <div class="i"></div>
 
         </section>
         <section id="forminfo">
-            <form name="myForm" action="#" method="get">
-                <input type="email" placeholder="Email address">
+            <form name="myForm" action="#" onsubmit="return validateForm()" method="get">
+                <input id='email' type="email" placeholder="Email address" name='email'>
+                <p id="error"></p>
                 <button>Request Access</button>
             </form>
         </section>
