@@ -23,6 +23,11 @@ html{
    
 }
 
+#cube{
+    z-index: 99;
+    
+}
+
 .layer {
     background-color: hsla(224, 35%, 11%, 0.82);
     position: absolute;
@@ -184,6 +189,27 @@ button:hover{
     #logo{
         margin-top: 3rem;
         margin-left: 4rem;
+    }
+
+    #cube{
+        width: 80%;
+    align-self: flex-start;
+    }
+
+    .grey{
+        text-align: left;
+    }
+
+    .turq{
+        width: 100%;
+        padding: 0 35px;
+        font-size: 3.4rem;
+    }
+
+    .white{
+        width: 100%;
+        padding: 0 35px;
+        font-size: 3.4rem;
     }
 }
 
