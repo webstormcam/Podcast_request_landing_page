@@ -8,6 +8,13 @@ function validateForm(){
     } else if (x.length>0 && x.includes('@')===false){
         text='Oops! Please input a proper email'
    
-    } 
+    } else{
+        text=''
+        document.getElementById("myForm").submit();
+     }
     document.getElementById('error').innerHTML=text;
 }
+
+
+
+
