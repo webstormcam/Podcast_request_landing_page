@@ -175,6 +175,16 @@ button:hover{
         background-image: none;
         background-color: black;
     }
+
+    header{
+        align-self: flex-start;
+ 
+    }
+
+    #logo{
+        margin-top: 3rem;
+        margin-left: 4rem;
+    }
 }
 
 
