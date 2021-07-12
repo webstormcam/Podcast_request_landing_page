@@ -6,7 +6,7 @@ function validateForm(){
     
         
     } else if (x.length>0 && x.includes('@')===false){
-        text='Please input a proper email'
+        text='Oops! Please input a proper email'
    
     } 
     document.getElementById('error').innerHTML=text;
