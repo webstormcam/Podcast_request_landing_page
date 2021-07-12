@@ -23,8 +23,12 @@ html{
    
 }
 
+
+
 #cube{
     z-index: 99;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -83,7 +87,7 @@ header{
 #icons{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     z-index: 12;
     justify-content: space-evenly;
     margin-top: 3rem;
@@ -174,6 +178,10 @@ button:hover{
     
 }
 
+.tablet{
+    display: none;
+}
+
 
 @media (min-width:768px){
     #container{
@@ -184,6 +192,25 @@ button:hover{
     header{
         align-self: flex-start;
  
+    }
+
+   #icons{
+       order:99;
+   }
+
+   #forminfo{
+       order: 2;
+   }
+
+    #tablet_back{
+        display: block;
+        background-image: url('imgs/tablet/image-host.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 200px;
+        height: 100%;
+        z-index: 0;
+        
     }
 
     #logo{
@@ -213,6 +240,30 @@ button:hover{
         width: 100%;
         padding: 0 35px;
         font-size: 3.2rem;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    .tablet{
+        display: block;
+    }
+
+     input[type="text"] {
+        width: 200px;
+        height: 20px;
+        padding-right: 50px;
+    }
+    
+    input[type="submit"] {
+        margin-left: -50px;
+        height: 25px;
+        width: 50px;
+        background: blue;
+        color: white;
+        border: 0;
+        -webkit-appearance: none;
     }
 }
 

@@ -37,16 +37,15 @@
                     <img class="cast2" src="imgs/desktop/pocket-casts.svg" alt="">
                 </div>
             </section>
-            <section id="forminfo">
-                <form id="myForm" name="myForm" action="#" onsubmit='event.preventDefault(); validateForm(); '
-                    method="get">
-                    <input id='email' type="text" placeholder="Email address" name='email'>
+            <section id="forminfo" class="mobile">
+                <form id="myForm" class="mobile" name="myForm" action="#"
+                    onsubmit='event.preventDefault(); validateForm(); ' method="get">
+                    <input class="mobile" id='email' type="text" placeholder="Email address" name='email'>
                     <p id="error"></p>
-                    <button>Request Access</button>
+                    <button class="mobile">Request Access</button>
                 </form>
             </section>
         </section>
-
     </div>
     <script src="app.js"></script>
 </body>
