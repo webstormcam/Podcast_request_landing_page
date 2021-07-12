@@ -5,10 +5,10 @@ function validateForm(){
         text=' Oops! Please add your email'
     
     } else if (x.includes('@')==false){
-        text='Oops! Please input a proper email'
+        text='Oops! Please check your email'
     
     }else if (x.length<5 && x.includes('@')===true){
-        text='Oops! Please input a proper email'
+        text='Oops! Please check your email'
    
     } else if (x.length>=6 && x.includes('@')==true){
         text=''
