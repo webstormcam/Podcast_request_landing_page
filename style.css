@@ -158,6 +158,11 @@ text-align: center;
 background-color: #54E6AF;
 }
 
+button:hover{
+    background-color: hsla(156, 59%, 76%, 0.993);
+    cursor: pointer;
+}
+
 #error{
     color:crimson ;
     font-size: 1.2rem;
