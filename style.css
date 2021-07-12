@@ -198,18 +198,21 @@ button:hover{
 
     .grey{
         text-align: left;
+        font-size: 1.4rem;
+        width: 100%;
+        padding-right: 110px;
     }
 
     .turq{
         width: 100%;
         padding: 0 35px;
-        font-size: 3.4rem;
+        font-size: 3.2rem;
     }
 
     .white{
         width: 100%;
         padding: 0 35px;
-        font-size: 3.4rem;
+        font-size: 3.2rem;
     }
 }
 
