@@ -10,7 +10,7 @@ function validateForm(){
     }else if (x.length<5 && x.includes('@')===true){
         text='Oops! Please check your email'
    
-    } else if (x.length>=6 && x.includes('@')==true){
+    } else if (x.length>=6 && x.includes('@')===true){
         text=''
         document.getElementById("myForm").submit();
      }
