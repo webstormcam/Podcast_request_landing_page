@@ -170,5 +170,13 @@ button:hover{
 }
 
 
+@media (min-width:768px){
+    #container{
+        background-image: none;
+        background-color: black;
+    }
+}
+
+
 
 
