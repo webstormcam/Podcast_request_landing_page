@@ -100,7 +100,7 @@ header{
     width: 50%;
     position: relative;
     top: 0.2rem;
-    right: 0.4rem;
+    right: 0.3rem;
     
 }
 
@@ -112,6 +112,7 @@ header{
 .cast2{
     
     height: 1rem;
+    padding-right: 0.7rem;
 
 }
 
