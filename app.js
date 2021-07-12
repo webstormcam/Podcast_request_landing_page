@@ -4,11 +4,13 @@ function validateForm(){
     if (x ===''){
         text=' Oops! Please add your email'
     
-        
-    } else if (x.length>0 && x.includes('@')===false){
+    } else if (x.includes('@')==false){
+        text='Oops! Please input a proper email'
+    
+    }else if (x.length<5 && x.includes('@')===true){
         text='Oops! Please input a proper email'
    
-    } else{
+    } else if (x.length>=6 && x.includes('@')==true){
         text=''
         document.getElementById("myForm").submit();
      }
