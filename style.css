@@ -178,15 +178,15 @@ button:hover{
     
 }
 
-.tablet{
-    display: none;
-}
 
 
 @media (min-width:768px){
     #container{
-        background-image: none;
-        background-color: black;
+        background-image: url('imgs/tablet/image-host.jpg');
+      background-size: 430px 620px;
+      background-color: black;
+      
+      
     }
 
     header{
@@ -196,22 +196,15 @@ button:hover{
 
    #icons{
        order:99;
+       width: 90%;
    }
 
-   #forminfo{
-       order: 2;
+   .layer{
+       display: none;
    }
 
-    #tablet_back{
-        display: block;
-        background-image: url('imgs/tablet/image-host.jpg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 200px;
-        height: 100%;
-        z-index: 0;
-        
-    }
+
+
 
     #logo{
         margin-top: 3rem;
@@ -221,6 +214,9 @@ button:hover{
     #cube{
         width: 80%;
     align-self: flex-start;
+    background-color: black;
+    padding-top: 8rem;
+    margin-top: 5.8rem;
     }
 
     .grey{
@@ -246,25 +242,9 @@ button:hover{
         display: none;
     }
 
-    .tablet{
-        display: block;
-    }
+  
 
-     input[type="text"] {
-        width: 200px;
-        height: 20px;
-        padding-right: 50px;
-    }
-    
-    input[type="submit"] {
-        margin-left: -50px;
-        height: 25px;
-        width: 50px;
-        background: blue;
-        color: white;
-        border: 0;
-        -webkit-appearance: none;
-    }
+     
 }
 
 
