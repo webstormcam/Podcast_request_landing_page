@@ -240,7 +240,9 @@ button:hover{
     }
 
     #cube{
-        width: 50rem;
+        width: 635px;
+        height: 509px;
+
     align-self: flex-start;
     background-color: #121725;
     padding-top: 8rem;
