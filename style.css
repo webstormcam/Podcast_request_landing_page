@@ -25,6 +25,8 @@ html{
 
 
 
+
+
 #cube{
     z-index: 99;
     display: flex;
@@ -43,7 +45,7 @@ html{
 }
 
 header{
-    z-index:  2;
+    z-index:  99;
 }
 
 #text{
@@ -183,8 +185,11 @@ button:hover{
 @media (min-width:768px){
     #container{
         background-image: url('imgs/tablet/image-host.jpg');
-      background-size: 430px 620px;
+      background-size: 465px 600px;
       background-color: black;
+   
+      
+      
       
       
     }
@@ -212,7 +217,7 @@ button:hover{
     }
 
     #cube{
-        width: 80%;
+        width: 70%;
     align-self: flex-start;
     background-color: black;
     padding-top: 8rem;
