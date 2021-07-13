@@ -184,6 +184,10 @@ button:hover{
     display: none;
 }
 
+#forminfotablet{
+    display: none;
+}
+
 
 
 @media (min-width:768px){
@@ -301,10 +305,21 @@ button:hover{
 
     }
 
+    #forminfotablet{
+        display: flex;
+        background-color: white;
+        flex-direction: row;
+    }
+
+
+
+    
+    }
+
   
 
      
-}
+
 
 
 
