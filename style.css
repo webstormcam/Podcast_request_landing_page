@@ -222,9 +222,10 @@ button:hover{
     align-self: flex-start;
     background-color: black;
     padding-top: 8rem;
-    margin-top: 1rem;
+    margin-top: 6rem;
     display: flex;
     flex-direction: column;
+    padding-left: 40px;
     }
 
     .grey{
@@ -240,13 +241,13 @@ button:hover{
     .turq{
         width: 100%;
        
-        font-size: 3.4rem;
+        font-size: 3rem;
     }
 
     .white{
         width: 100%;
       
-        font-size: 3.4rem;
+        font-size: 3rem;
     }
 
     .mobile{
