@@ -186,7 +186,7 @@ button:hover{
     #container{
         background-image: url('imgs/tablet/image-host.jpg');
       background-size: 500px 700px;
-      background-color: black;
+      background-color: #121725;
       
    
       
@@ -202,8 +202,30 @@ button:hover{
 
    #icons{
        order:99;
-       width: 90%;
+       width: 80%;
    }
+
+   .iconsdiv{
+    
+    width: 50%;
+
+}
+
+.cast{
+    width: 6rem;
+}
+
+.cast2{
+   height: 1.5rem;
+   width: 10rem;
+}
+
+.iconsdiv2{
+   
+    width: 50%;
+    
+    
+}
 
    .layer{
        display: none;
@@ -218,9 +240,9 @@ button:hover{
     }
 
     #cube{
-        width: 45rem;
+        width: 50rem;
     align-self: flex-start;
-    background-color: black;
+    background-color: #121725;
     padding-top: 8rem;
     margin-top: 6rem;
     display: flex;
