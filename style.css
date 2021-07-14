@@ -11,6 +11,10 @@ body{
     background-color:#121725 ;
 }
 
+#image-desktop{
+    display: none;
+}
+
 #container{
     display: flex;
     max-width: 100%;
@@ -201,6 +205,8 @@ button:hover{
       background-color: #121725;
       padding-bottom: 0px;
       height: 100%;
+      align-items: initial;
+    
       
    
       
@@ -294,9 +300,7 @@ button:hover{
         padding-left: 35px;
     }
 
-    /* .mobile{
-        display: none;
-    } */
+  
 
     #graphic{
         width: 100%;
@@ -371,6 +375,25 @@ button:hover{
 
     
     }
+
+
+    @media (min-width:1440px){
+     #container{
+         background-image: none;
+         align-items: initial;
+       
+     }
+
+     #image-desktop{
+        display: block;
+    }
+          
+       
+          
+          
+          
+          
+        }
 
   
 
