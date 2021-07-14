@@ -15,6 +15,11 @@ body{
     display: none;
 }
 
+
+#graphic2{
+ display: none;
+}
+
 #container{
     display: flex;
     max-width: 100%;
@@ -381,19 +386,72 @@ button:hover{
      #container{
          background-image: none;
          align-items: initial;
+         position: relative;
+         
        
      }
 
+     body{
+        display: flex;
+        flex-direction: column;
+      
+     }
+
+     header{
+         padding-left: 360px;
+         
+       
+     }
+
+    
+
      #desktop-content{
+         width: 100%;
          display: flex;
          flex-direction: row;
+        position: relative;
+        
+        
+       
+     
      }
+
+
 
      #image-desktop{
         display: block;
+        left: 60rem;
+        position: absolute;
+     
+        
+        
 
     }
-          
+
+    #cube{
+        width: 723px;
+        height: 509px;
+        position: absolute;
+        left: 30rem;
+        top:5rem;
+       
+        
+      
+        
+
+    }
+
+  
+          #graphic{
+           display: none;
+          }
+
+          #graphic2{
+              display: block;
+              position: absolute;
+              left: 115rem;
+              top: 45rem;
+          }
        
           
           
