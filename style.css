@@ -307,9 +307,47 @@ button:hover{
 
     #forminfotablet{
         display: flex;
-        background-color: white;
         flex-direction: row;
     }
+
+   #forminfotablet form{
+        width: 100%;
+        display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    
+    
+    }
+
+    form.index-search-form {
+        position: relative;
+        display: inline-flex;
+      }
+      
+      button[name="submit"] {
+        position: absolute;
+        top: -16px;
+        left: 247px;
+        width: 165px;
+        padding-top: 15px;
+        padding-bottom:15px ;
+        text-align: center;
+        
+      }
+
+    
+
+      input{
+          width: 402px;
+        padding-top: 20px ;
+        padding-bottom: 15px;
+      }
+      
+      input.search-box {
+        width: 250px;
+        font-family: FontAwesome;
+        padding: 2px 0;
+      }
 
 
 

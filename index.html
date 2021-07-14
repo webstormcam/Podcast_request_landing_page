@@ -50,7 +50,12 @@
             </section>
 
             <section id="forminfotablet">
-
+                <form id='myForm' action="#" method="get" onsubmit='event.preventDefault(); validateForm();'
+                    class="index-search-form">
+                    <input name="search" id="email" type="text" name="email" placeholder="Email Address">
+                    <button name="submit" class="" type="submit">Request Access</button>
+                    <p id="error"></p>
+                </form>
             </section>
 
         </section>
