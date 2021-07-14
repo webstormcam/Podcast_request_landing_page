@@ -212,12 +212,13 @@ button:hover{
 
    #icons{
        order:99;
-       width: 80%;
+       width: 520px;
    }
 
    .iconsdiv{
-    
+    justify-content: space-evenly;
     width: 50%;
+  
 
 }
 
@@ -226,12 +227,13 @@ button:hover{
 }
 
 .cast2{
-   height: 1.5rem;
-   width: 10rem;
+   height: 2rem;
+   width: 12rem;
+   padding-left: 40px;
 }
 
 .iconsdiv2{
-   
+    justify-content: center;
     width: 50%;
     
     
