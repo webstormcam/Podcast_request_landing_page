@@ -420,11 +420,16 @@ button:hover{
 
      #image-desktop{
         display: block;
-        left: 50rem;
+        left: 45rem;
         position: absolute;
+     
      
         
         
+
+    }
+
+    #image-desktop img{
 
     }
 
@@ -433,7 +438,7 @@ button:hover{
         height: 509px;
         position: absolute;
         left: 20rem;
-        top:5rem;
+        top:10rem;
        
         
       
