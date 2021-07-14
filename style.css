@@ -261,7 +261,7 @@ button:hover{
     margin-top: 6rem;
     display: flex;
     flex-direction: column;
-    padding-left: 40px;
+
     }
 
     .grey{
@@ -284,6 +284,10 @@ button:hover{
         width: 100%;
       
         font-size: 3rem;
+    }
+
+    #text{
+        padding-left: 35px;
     }
 
     .mobile{
@@ -310,6 +314,7 @@ button:hover{
     #forminfotablet{
         display: flex;
         flex-direction: row;
+        padding-left: 35px;
     }
 
    #forminfotablet form{
