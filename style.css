@@ -386,7 +386,7 @@ button:hover{
      #container{
          background-image: none;
          align-items: initial;
-       
+         position: relative;
          
        
      }
@@ -398,7 +398,7 @@ button:hover{
      }
 
      header{
-         
+         padding-left: 200px;
          
        
      }
@@ -408,7 +408,8 @@ button:hover{
      #desktop-content{
          width: 100%;
          display: flex;
-        
+         flex-direction: row;
+        position: relative;
         
         
        
@@ -419,7 +420,8 @@ button:hover{
 
      #image-desktop{
         display: block;
-    
+        left: 50rem;
+        position: absolute;
      
         
         
@@ -429,7 +431,9 @@ button:hover{
     #cube{
         width: 723px;
         height: 509px;
-     
+        position: absolute;
+        left: 20rem;
+        top:5rem;
        
         
       
@@ -444,7 +448,9 @@ button:hover{
 
           #graphic2{
               display: block;
-          
+              position: absolute;
+              left: 100rem;
+              top: 45rem;
           }
        
           
