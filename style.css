@@ -384,8 +384,14 @@ button:hover{
        
      }
 
+     #desktop-content{
+         display: flex;
+         flex-direction: row;
+     }
+
      #image-desktop{
         display: block;
+
     }
           
        
