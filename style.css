@@ -7,6 +7,10 @@ html{
     font-family: 'Chivo', sans-serif;
 }
 
+body{
+    background-color:#121725 ;
+}
+
 #container{
     display: flex;
     max-width: 100%;
