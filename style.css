@@ -338,10 +338,12 @@ button:hover{
     
 
       input{
-          width: 402px;
+          width: 414px;
         padding-top: 20px ;
         padding-bottom: 15px;
       }
+
+      
       
       input.search-box {
         width: 250px;
