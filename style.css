@@ -403,6 +403,7 @@ button:hover{
          background-position: right;
          max-width: 1440px;
          align-items: center;
+         position: relative;
 
      }
 
@@ -419,7 +420,7 @@ button:hover{
 
     
 header{
-padding-left: 200px;
+padding-left: 150px;
 }
 
 
@@ -447,7 +448,10 @@ padding-left: 200px;
 
           #graphic2{
               display: flex;
-           width: 100%;
+      
+           position: absolute;
+           left:1200px;
+           top:630px
             
           }
        
