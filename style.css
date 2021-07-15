@@ -11,8 +11,11 @@ body{
     background-color:#121725 ;
 }
 
-#image-desktop{
-    display: none;
+#desktop-background{
+    z-index: 69;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -384,68 +387,46 @@ button:hover{
 
     @media (min-width:1440px){
      #container{
-         background-image: none;
+   background-image: none;
+
+   padding: 40px;
        
        
     
          
        
+     }
+
+     #desktop-background{
+         background-image: url('imgs/desktop/image-host.jpg');
+         background-repeat: no-repeat;
+         background-position: right;
      }
 
      body{
         display: flex;
         flex-direction: column;
         width: 100%;
+        
        
       
      }
 
-     header{
-        
-         
-       
-     }
+   
 
     
 
-     #desktop-content{
-         width: 100%;
-         display: flex;
-         flex-direction: row;
-         position: relative;
-    
-        
-        
-       
-     
-     }
 
 
 
-     #image-desktop{
-        display: block;
-        position: absolute;
-        left:40rem;
-
-      
-        
      
-     
-     
-     
-        
-        
-
-    }
 
  
 
     #cube{
         width: 723px;
         height: 509px;
-      position: absolute;
-      left: 12rem;
-      top: 5rem;
+       
   
         
       
@@ -459,7 +440,8 @@ button:hover{
           }
 
           #graphic2{
-              display: block;
+              display: flex;
+           width: 100%;
             
           }
        
