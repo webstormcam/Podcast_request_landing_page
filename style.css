@@ -405,7 +405,7 @@ button:hover{
          background-image: url('imgs/desktop/image-host.jpg');
          background-repeat: no-repeat;
          background-position: right;
-         max-width: 1440px;
+         max-width: 1300px;
       
          position: relative;
 
@@ -437,7 +437,7 @@ padding-left: 100px;
     #cube{
         width: 723px;
         height: 509px;
-        margin-left: 100px;
+        margin-left: 50px;
        
   
         
