@@ -401,6 +401,9 @@ button:hover{
          background-image: url('imgs/desktop/image-host.jpg');
          background-repeat: no-repeat;
          background-position: right;
+         max-width: 1440px;
+         align-items: center;
+
      }
 
      body{
@@ -415,7 +418,9 @@ button:hover{
    
 
     
-
+header{
+padding-left: 200px;
+}
 
 
 
@@ -426,6 +431,7 @@ button:hover{
     #cube{
         width: 723px;
         height: 509px;
+        margin-left: 150px;
        
   
         
