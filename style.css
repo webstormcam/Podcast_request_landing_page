@@ -391,8 +391,9 @@ button:hover{
     @media (min-width:1440px){
      #container{
    background-image: none;
-
+width: 100%;
    padding: 40px;
+  
        
        
     
@@ -405,7 +406,7 @@ button:hover{
          background-repeat: no-repeat;
          background-position: right;
          max-width: 1440px;
-         align-items: center;
+      
          position: relative;
 
      }
@@ -435,7 +436,7 @@ padding-left: 100px;
     #cube{
         width: 723px;
         height: 509px;
-        margin-left: 150px;
+        margin-left: 110px;
        
   
         
