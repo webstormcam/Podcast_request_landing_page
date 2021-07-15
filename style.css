@@ -392,6 +392,7 @@ button:hover{
      #container{
    background-image: none;
    padding: 40px;
+   width: 1440px;
   
        
        
@@ -414,6 +415,7 @@ button:hover{
         display: flex;
         flex-direction: column;
         width: 100%;
+        align-items: center;
         
        
       
@@ -435,7 +437,7 @@ padding-left: 100px;
     #cube{
         width: 723px;
         height: 509px;
-        margin-left: 110px;
+        margin-left: 100px;
        
   
         
